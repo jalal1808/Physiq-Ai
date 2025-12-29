@@ -7,7 +7,7 @@ from google.adk.tools.mcp_tool import McpToolset
 from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
 from mcp import StdioServerParameters
 
-from agents.physiq_agent.prompt import prompt
+from . import prompt
 
 # os.environ['GROQ_API_KEY']
 
